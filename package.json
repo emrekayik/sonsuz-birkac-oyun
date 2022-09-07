@@ -1,0 +1,15 @@
+{
+  "name": "sonsuz-birkac-oyun",
+  "scripts": {
+    "start": "bun run ./lib/index.js",
+    "format": "npx prettier --write .",
+    "esta": "babel src -d lib && bun start"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.18.10",
+    "@babel/core": "^7.19.0",
+    "@babel/preset-env": "^7.19.0",
+    "bun-types": "^0.1.0",
+    "prettier": "^2.7.1"
+  }
+}
